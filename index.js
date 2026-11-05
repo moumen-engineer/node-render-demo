@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 // Define the home page route
 app.get("/", (req, res) => {
-    res.send("Hello from Render!");
+    res.send("Hello from my first PaaS deployment !");
 });
 
 // Start the server
